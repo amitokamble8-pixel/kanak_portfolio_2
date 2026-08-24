@@ -389,7 +389,7 @@ export const FOOTER_NAV = [
   { label: "Projects", to: "/projects" },
   { label: "Areas of Interest", to: "publications" },
   { label: "Achievements", to: "/awards" },
-  { label: "Leadership", to: "/volunteering" },
+  { label: "Leadership & Community", to: "/volunteering" },
   { label: "Music & Activities", to: "/sports" }, 
    
 ];
