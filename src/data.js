@@ -384,11 +384,11 @@ export const GALLERIES = [
 
 export const FOOTER_NAV = [
   { label: "Home", to: "/" },
-  { label: "Writing", to: "/projects" },
+  { label: "About", to: "/about" },
+  { label: "Projects", to: "/projects" },
   { label: "Achievements", to: "/awards" },
   { label: "Interests", to: "/publications" },
   { label: "Leadership", to: "/volunteering" },
-  { label: "About", to: "/about" },
 ];
 
 export const FOOTER_PROFILES = [
