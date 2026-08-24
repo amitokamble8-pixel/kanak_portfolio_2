@@ -109,7 +109,7 @@ export function Home() {
       </section>
 
       <section className="section">
-        <SectionHead title="Areas of interest" eyebrow="Research directions" />
+        <SectionHead title="Areas of Interest" eyebrow="Research directions" />
         <div className="row-list">
           {ARTICLES.map((a, i) => (
             <Reveal key={a.title} delay={i * 60}><ArticleRow a={a} /></Reveal>
@@ -258,7 +258,7 @@ export function Awards() {
   usePageMeta(`Achievements | ${SITE}`, "Research awards, competition results, and academic honors.");
   return (
     <section className="section">
-      <PageHead title="Awards & Recognitions" eyebrow="Research · Competition · Academic" />
+      <PageHead title="Achievements" eyebrow="Research · Competition · Academic" />
       <div className="row-list">
         {AWARDS.map((a, i) => (
           <Reveal key={a.title} delay={i * 55}><AwardRow a={a} /></Reveal>
@@ -272,7 +272,7 @@ export function Publications() {
   usePageMeta(`Interests | ${SITE}`, "Areas of research and technical interest.");
   return (
     <section className="section">
-      <PageHead title="Areas of interest" eyebrow="Research directions" />
+      <PageHead title="Areas of Interest" eyebrow="Research directions" />
       <div className="row-list">
         {ARTICLES.map((a, i) => (
           <Reveal key={a.title} delay={i * 60}><ArticleRow a={a} /></Reveal>
@@ -289,7 +289,7 @@ export function Volunteering() {
   usePageMeta(`Leadership & Teaching | ${SITE}`, "Founding a machine learning club, teaching summer band, and community volunteering.");
   return (
     <section className="section">
-      <PageHead title="Leadership & Teaching" eyebrow="Clubs · Music · Community" />
+      <PageHead title="Leadership & Community" eyebrow="Clubs · Music · Community" />
       <Reveal>
         <div className="vol-panel">
           <div className="vol-stats">
