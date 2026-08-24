@@ -39,7 +39,7 @@ export const NAV = [
     children: [
       { label: "Researchy & Experience", to: "/work" },
       { label: "Projects", to: "/projects" },
-      { label: "Areas of Interests", to: "/publications" },
+      { label: "Areas of Interest", to: "/publications" },
     ],
   },
   { label: "Achievements", to: "/awards" },
