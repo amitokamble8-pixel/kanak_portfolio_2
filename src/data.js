@@ -385,7 +385,7 @@ export const GALLERIES = [
 export const FOOTER_NAV = [
   { label: "Home", to: "/" },
   { label: "About", to: "/about" },
-  { label: "Current Research", to: "/work" },
+  { label: "Research & Experience", to: "/work" },
   { label: "Projects", to: "/projects" },
   { label: "Areas of Interest", to: "publications" },
   { label: "Achievements", to: "/awards" },
