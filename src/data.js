@@ -37,14 +37,14 @@ export const NAV = [
   {
     label: "Experience",
     children: [
-      { label: "Current Research", to: "/work" },
-      { label: "Writing & Publications", to: "/projects" },
-      { label: "Interests", to: "/publications" },
+      { label: "Researchy & Experience", to: "/work" },
+      { label: "Projects", to: "/projects" },
+      { label: "Areas of Interests", to: "/publications" },
     ],
   },
   { label: "Achievements", to: "/awards" },
   { label: "Leadership & Community", to: "/volunteering" },
-  { label: "Activities", to: "/sports" },
+  { label: "Music & Activities", to: "/sports" },
 ];
 
 /* ---- Profile highlights (hero cards on the home page) ---- */
