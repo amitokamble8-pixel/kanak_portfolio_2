@@ -71,7 +71,7 @@ export function Home() {
       <Hero />
 
       <section className="section">
-        <SectionHead title="Awards & Recognitions" eyebrow="Research · Competition · Academic" />
+        <SectionHead title="Achievements" eyebrow="Research · Competition · Academic" />
         <div className="row-list">
           {AWARDS.filter((a) => a.featured).slice(0, 4).map((a, i) => (
             <Reveal key={a.title} delay={i * 60}><AwardRow a={a} /></Reveal>
@@ -81,7 +81,7 @@ export function Home() {
       </section>
 
       <section className="section">
-        <SectionHead title="Current research" eyebrow="Mentored & Independent" />
+        <SectionHead title="Research & Experience" eyebrow="Mentored & Independent" />
         <div className="grid-2">
           {EXPERIENCE.filter((e) => e.featured).slice(0, 2).map((e, i) => (
             <Reveal key={e.slug} delay={i * 90}><ExperienceCard e={e} /></Reveal>
@@ -118,7 +118,7 @@ export function Home() {
       </section>
 
       <section className="section">
-        <SectionHead title="Leadership & Teaching" eyebrow="Clubs · Music · Community" />
+        <SectionHead title="Leadership & Community" eyebrow="Clubs · Music · Community" />
         <Reveal>
           <div className="vol-panel">
             <div className="vol-stats">
